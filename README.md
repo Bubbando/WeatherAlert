@@ -1,4 +1,4 @@
-Weather Alert
+# Weather Alert
 Assessment Criteria
  
 We analyse your coding challenge submission using several criteria, amongst these:
@@ -17,33 +17,33 @@ We expect to receive good quality code (some non-obvious bugs are ok of course) 
  
 Please consider that you may be required to reason about your solution and justify implementation and design choices you have made.
 
-The App - Weather Alert
+# The App - Weather Alert
  
 Implement an application that will allow the user to check the wind conditions and forecast at one or more locations around the world.
 
-User Interface
+# User Interface
  
 The design of the UI is totally down to you. We expect you to choose a sensible user interface design and implement controls, views and layout in a way that will offer users a good experience. We expect the use of the latest technologies in the app and we expect support modern versions of the operating system – please make it clear if there are version restrictons on your submission. Note: we may test the app on different screen sizes (common ones) for your submission.
  
-The Requirements
+# The Requirements
 
-Executive summary
+# Executive summary
 
 We require an app that allows a user to monitor current and/or forecast wind information from selected locations around the world.
 
-The Data Source
+# The Data Source
  
 In order to complete the coding challenge we would like you to use the openweather API. It is well documented with an up to date wiki offering help and advice. The API can be found here.
 http://openweathermap.org/API#weather
  
 All of the functionality within the requirements can be achieved using this service. You are free to use either the JSON or XML API.
 
-The Main View – Favourite locations
+# The Main View – Favourite locations
  
 This is the main interface of the application and the starting point when launching your app. 
 In this view the user can see previously added ‘favourite’ locations and add new ‘favourite’ locations for which they want to monitor wind information. How this is implemented in the user interface is up to you. Think about what data you can practically display here, about current or forecast wind information.
  
-Getting Locations
+# Getting Locations
  
 Read the API documentation, you can search for Cities by substring.
  
@@ -55,7 +55,7 @@ On Start-up, the application should check if the user has already chosen locatio
  
 When the application starts up for the very first time, or when no favourite locations have been selected, there will be no favourite data to display. In this situation the user interface should be clear and intuitive. As a minimum, an add station option should be present.
 
-The Wind forecast - detail view
+# The Wind forecast - detail view
 
 For any favourite location displayed in the main view the user should be provided with functionality allowing them to see full/further forecast information about this location
  
@@ -68,10 +68,5 @@ Forecast data is well supported in the openweathermap.org API. Remember we are i
  
 The openweathermap.org API is metered to prevent DOS and other abuse. More than 2000 API requests in one hour can result in a ban or, more typically, a throttle being put on subsequent requests. More details about this are available at the openweathermap.org site, bear this in mind in your design.
  
-What to do when you are complete
- 
-Please send us the solution as a shared link to a file hosted in any of the many file sharing services (dropbox,mediafire, drop.io,etc) or to a source repository e.g. github or bitbucket. email may be problematic due to attachment size. 
-
-If you have problems or any questions about the challenge, please feel free to contact us.
  
 
